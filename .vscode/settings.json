@@ -1,0 +1,9 @@
+
+{
+    "scss.validate": false,
+    "css.validate": false,
+    "css.lint.unknownAtRules": "ignore",
+    "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+    }
+    }
