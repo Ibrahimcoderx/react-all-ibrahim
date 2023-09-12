@@ -1,4 +1,5 @@
 import React from "react";
+
 import Basic__onClick__Map from "../../Component/Basic__onClick__&__Map";
 import FORM1 from "../../Component/FORM/index1";
 import FORM2 from "../../Component/FORM/index2";
@@ -9,6 +10,8 @@ import SignUpFormik from "../..//Component/Formick__Yup/SignUpFormik";
 import Toggle from "../../Component/Toggle/Toggle";
 import Toggle2 from "../../Component/Toggle/Toggle2";
 import FAQS from "../../Component/FAQ/FAQS";
+import Effect_hook from "../../Component/Hooks/useEffact/useEffect_hook";
+import Effect2 from "../../Component/Hooks/useEffact/useEffect2";
 
 const index = () => {
 
@@ -50,9 +53,12 @@ const index = () => {
 
       {/* <Toggle /> */}
 
-      <Toggle2/>
-
-      <FAQS/>
+      {/* <Toggle2/>
+      <FAQS/> */}
+     {/* <Effect_hook/> */}
+     
+     <Effect2/>  {/* data Fetch......................... */}
+     
 
     </div>
 
