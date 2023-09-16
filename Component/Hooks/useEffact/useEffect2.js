@@ -28,8 +28,7 @@ const Effect2 = () => {
           todos && todos.map((todo) => {
                return (
                <>
-                 <p key={todo.id}> {todo.title}</p>
-                 
+                 <h4 key={todo.id}> {todo.title}</h4>
                </>
                )
             })

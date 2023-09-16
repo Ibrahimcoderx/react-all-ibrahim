@@ -12,6 +12,9 @@ import Toggle2 from "../../Component/Toggle/Toggle2";
 import FAQS from "../../Component/FAQ/FAQS";
 import Effect_hook from "../../Component/Hooks/useEffact/useEffect_hook";
 import Effect2 from "../../Component/Hooks/useEffact/useEffect2";
+import Effect3 from "../../Component/Hooks/useEffact/DataFetch";
+import CoustomHooks from "../../Component/Hooks/Custom/CoustomHooks";
+import DataFetch2 from "../../Component/Hooks/Custom/DataFetch2";
 
 const index = () => {
 
@@ -57,7 +60,11 @@ const index = () => {
       <FAQS/> */}
      {/* <Effect_hook/> */}
      
-     <Effect2/>  {/* data Fetch......................... */}
+     {/* <Effect2/>  data Fetch......................... */}
+     {/* <DataFetch/>  data Fetch......................... */}
+     <DataFetch2/>  
+     {/* data Fetch with coustom hooks......................... */}
+
      
 
     </div>
