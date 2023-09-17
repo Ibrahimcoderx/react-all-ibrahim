@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import CoustomHooks from "./CoustomHooks";
 
 
-
-
-
 const DataFetch2 = () => {
 
     const { data, isLoading, error} = CoustomHooks('https://jsonplaceholder.typicode.com/todos')
@@ -13,7 +10,7 @@ const DataFetch2 = () => {
         const errorMessage = <p> {error}</p>
 
   const TodosElement = 
-  data && data.map((todo) => {
+       data && data.map((todo) => {
          return (
          <>
            <h4 key={todo.id}> {todo.title}</h4>

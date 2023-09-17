@@ -2,3 +2,7 @@
 .myForm div{
     margin-bottom: 10px;
 }
+
+.valid{
+    background-color: green;
+}

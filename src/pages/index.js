@@ -15,6 +15,10 @@ import Effect2 from "../../Component/Hooks/useEffact/useEffect2";
 import Effect3 from "../../Component/Hooks/useEffact/DataFetch";
 import CoustomHooks from "../../Component/Hooks/Custom/CoustomHooks";
 import DataFetch2 from "../../Component/Hooks/Custom/DataFetch2";
+import Toast from "../../Component/Toastify/Toast";
+import Fragment from "../../Component/Fragment/Fragment";
+import Dynamic_Style from "../../Component/Dynamic_Style/Dynamic_Style";
+
 
 const index = () => {
 
@@ -62,9 +66,11 @@ const index = () => {
      
      {/* <Effect2/>  data Fetch......................... */}
      {/* <DataFetch/>  data Fetch......................... */}
-     <DataFetch2/>  
+     {/* <DataFetch2/>   */}
      {/* data Fetch with coustom hooks......................... */}
-
+      {/* <Toast/> */}
+      {/* <Fragment/> */}
+      <Dynamic_Style/>
      
 
     </div>
