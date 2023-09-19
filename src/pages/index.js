@@ -18,6 +18,7 @@ import DataFetch2 from "../../Component/Hooks/Custom/DataFetch2";
 import Toast from "../../Component/Toastify/Toast";
 import Fragment from "../../Component/Fragment/Fragment";
 import Dynamic_Style from "../../Component/Dynamic_Style/Dynamic_Style";
+import UseRef from "../../Component/Hooks/UseRef/useRef";
 
 
 const index = () => {
@@ -70,7 +71,8 @@ const index = () => {
      {/* data Fetch with coustom hooks......................... */}
       {/* <Toast/> */}
       {/* <Fragment/> */}
-      <Dynamic_Style/>
+      {/* <Dynamic_Style/> */}
+      <UseRef/>
      
 
     </div>

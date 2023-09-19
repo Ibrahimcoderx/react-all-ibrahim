@@ -3,18 +3,22 @@ import React, { useEffect, useState } from "react";
 const Dynamic_Style = () => {
   // const error = false;
 
-  const [name, setName] = useState();
+  const [name, setName] = useState('');
   const [validInput, setvalidInput] = useState(false);
 
-
+  try{
     useEffect(() =>{ //   use effact use kor kora hoisa real time update valu ar jonno name ar modda real time update vlalue thaka na
 
     if (name.length < 2) {
       setvalidInput(false);
-    } else {
+    }
+    else {
       setvalidInput(true);
     }
     }, [name])
+
+  }catch (err) {
+    console.log(err);}
     
     const handleChange = (e) => {
         setName(e.target.value);
