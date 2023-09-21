@@ -42,7 +42,8 @@ const [error, setError] = useState(null)
 
         })
 
-         }, 2000)
+         }, 2000)   
+                   
       } ,[]);
       
       

@@ -6,3 +6,16 @@
 .valid{
     background-color: green;
 }
+
+.users{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    gap: 30px;
+}
+
+.user{
+    background-color:antiquewhite;
+}

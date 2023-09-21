@@ -12,7 +12,6 @@ const UseRef = () => {
         const username =userNameRef.current.value;
         const password =PassNameRef.current.value;
         userNameRef.current.style.color ="red"
-
         console.log({username , password})
     }
 

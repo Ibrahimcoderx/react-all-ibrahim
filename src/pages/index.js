@@ -19,6 +19,9 @@ import Toast from "../../Component/Toastify/Toast";
 import Fragment from "../../Component/Fragment/Fragment";
 import Dynamic_Style from "../../Component/Dynamic_Style/Dynamic_Style";
 import UseRef from "../../Component/Hooks/UseRef/useRef";
+import Component1_useContext from "../../Component/Hooks/useContext/Component1";
+import TestData2 from "../../Component/database/TestData";
+import Context_project from "../../Component/Project_useContext/Context_project";
 
 
 const index = () => {
@@ -66,13 +69,19 @@ const index = () => {
      {/* <Effect_hook/> */}
      
      {/* <Effect2/>  data Fetch......................... */}
-     {/* <DataFetch/>  data Fetch......................... */}
+     {/* <DataFetch/>  data Fetch......................... */}                                                                                                                                                                                 
      {/* <DataFetch2/>   */}
      {/* data Fetch with coustom hooks......................... */}
       {/* <Toast/> */}
       {/* <Fragment/> */}
       {/* <Dynamic_Style/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+
+      {/* <Component1_useContext/>    props drilling value passing any component , state make globlay  */}
+
+      {/* <TestData2/> */}
+      <Context_project/>
+   
      
 
     </div>
