@@ -22,6 +22,7 @@ import UseRef from "../../Component/Hooks/UseRef/useRef";
 import Component1_useContext from "../../Component/Hooks/useContext/Component1";
 import TestData2 from "../../Component/database/TestData";
 import Context_project from "../../Component/Project_useContext/Context_project";
+import Loader from "../../Component/Loader/Loader";
 
 
 const index = () => {
@@ -80,7 +81,9 @@ const index = () => {
       {/* <Component1_useContext/>    props drilling value passing any component , state make globlay  */}
 
       {/* <TestData2/> */}
+      <Loader/>
       <Context_project/>
+   
    
      
 

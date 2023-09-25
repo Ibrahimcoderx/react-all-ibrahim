@@ -8,7 +8,7 @@ const Users = ({users , handleDeleteUser}) => {
     <div className='users'>
          
             {users.map(user=> <User key={user.id} user={user} handleDeleteUser={handleDeleteUser} />)}          
-
+            
     </div>
   )
 }
