@@ -4,7 +4,6 @@ const User = ({user, handleDeleteUser}) => {
         const {id, username} = user;
 
 
-
         const handleDelete =(id) =>{
           handleDeleteUser(id)
         }
@@ -17,7 +16,6 @@ const User = ({user, handleDeleteUser}) => {
         <p>UserPage</p>
         <button onClick={() =>{handleDelete(id)}}>Delete</button>
 
-        
     </div>
 
   )
