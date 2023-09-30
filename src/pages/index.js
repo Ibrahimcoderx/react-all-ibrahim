@@ -24,6 +24,9 @@ import TestData2 from "../../Component/database/TestData";
 import Context_project from "../../Component/Project_useContext/Context_project";
 import Loader from "../../Component/Loader/Loader";
 import Context_project2 from "../../Component/Project_useContext2/Context_project";
+import Card from "../../Component/Card_project/Card";
+import ReduxProvider from "../../Component/Redux/ReduxProvider";
+
 
 
 
@@ -84,11 +87,13 @@ const index = () => {
 
       {/* <TestData2/> */}
   
-      <Loader/> 
+      {/* <Loader/>  */}
     
       {/* <Context_project/> */}
-      <Context_project2/>
-   
+      {/* <Context_project2/> */}
+      {/* <Card/> */}
+      
+     <ReduxProvider/>
    
    
      

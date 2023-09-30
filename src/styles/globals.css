@@ -19,3 +19,35 @@
 .user{
     background-color:antiquewhite;
 }
+
+.CardMainDiv_1Main{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 50px 0px;
+}
+
+.CardMainDiv_1{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 30px;
+}
+
+.CardMain_1{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.CardMain_1 h1{
+    font-size: 28px;
+}
+
+.CardMain_1 h2{
+    font-size: 24px;
+}
+.CardMain_1 h4{
+    font-size: 20px;
+}
+
+.CardMain_1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
