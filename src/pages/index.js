@@ -26,6 +26,7 @@ import Loader from "../../Component/Loader/Loader";
 import Context_project2 from "../../Component/Project_useContext2/Context_project";
 import Card from "../../Component/Card_project/Card";
 import ReduxProvider from "../../Component/Redux/ReduxProvider";
+import DaApp from '../../Component/Map/DaApp'
 
 
 
@@ -93,8 +94,9 @@ const index = () => {
       {/* <Context_project2/> */}
       {/* <Card/> */}
       
-     <ReduxProvider/>
+     {/* <ReduxProvider/> */}
    
+        <DaApp/>
    
      
 
