@@ -27,6 +27,7 @@ import Context_project2 from "../../Component/Project_useContext2/Context_projec
 import Card from "../../Component/Card_project/Card";
 import ReduxProvider from "../../Component/Redux/ReduxProvider";
 import DaApp from '../../Component/Map/DaApp'
+import FormTest from "../../Component/From/FormTest";
 
 
 
@@ -94,9 +95,10 @@ const index = () => {
       {/* <Context_project2/> */}
       {/* <Card/> */}
       
-     {/* <ReduxProvider/> */}
+     <ReduxProvider/>
    
-        <DaApp/>
+        {/* <DaApp/> */}
+        <FormTest/>
    
      
 
