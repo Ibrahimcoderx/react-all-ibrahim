@@ -59,6 +59,8 @@ const FormTest = () => {
               <label for="lname">Full Address</label>
               <input type="text" id="lname" name="address" placeholder="Your address.." value={formData.address} onChange={handleChange} />
               {/* Add more form fields as needed */}
+              <label for="quantity">Quantity pis: </label>
+              <input type="number" id="quantity" name="quantity" placeholder='1' min="1" max="50" value={formData.quantity} onChange={handleChange} />
               <button type="submit">Submit</button>
             </form>
               
